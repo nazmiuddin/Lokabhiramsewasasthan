@@ -8,6 +8,7 @@
 // 
 // Quickly modify global styling by enabling or disabling optional features.
   
+@import url('https://fonts.googleapis.com/css?family=Skranji'); 
 @import url('https://fonts.googleapis.com/css?family=lora'); 
 @import url('https://fonts.googleapis.com/css?family=<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">'); 
 @import url('https://fonts.googleapis.com/css?family=<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">'); 
@@ -49,13 +50,18 @@ $link-color: #8e8e8e;
 $font-family-base: lora;
 
 
-$headings-font-family: $font-family-base;
-$display-font-family: $font-family-base;
+$headings-font-family: Skranji;
+
+$display-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
 $font-weight-normal: 200;
 $headings-font-weight: 200;
 $lead-font-size:   1.30rem;
 
 $spacer: 1.5rem;
+
+$font-size-base: 16;
+
 
 @import 'bootstrap-4.0.0';
 
