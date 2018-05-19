@@ -1,11 +1,19 @@
 /*!
-* Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
+* Wireframe Pingendo template (https://templates.pingendo.com)
+* Based on: Bootstrap v4.0.0 (https://getbootstrap.com)
+* Copyright 2014-2018 Pingendo (https://pingendo.com)
 */
  
 // Options
 // 
 // Quickly modify global styling by enabling or disabling optional features.
   
+@import url('https://fonts.googleapis.com/css?family=Skranji'); 
+@import url('https://fonts.googleapis.com/css?family=lora'); 
+@import url('https://fonts.googleapis.com/css?family=<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">'); 
+@import url('https://fonts.googleapis.com/css?family=<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">'); 
+@import url('https://fonts.googleapis.com/css?family=<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">'); 
+@import url('https://fonts.googleapis.com/css?family=<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">'); 
 $enable-rounded:            true !default;
 $enable-shadows:            true;
 $enable-transitions:        true;
@@ -20,9 +28,9 @@ $enable-print-styles:       true;
 $theme-colors: (
   primary: #Fb8304,
   secondary: #FBB204,
-  light: #f3f3f3,
-  dark: #151515,
-  info: #ccc,
+  light: #eaeaea,
+  dark: #555555,
+  info: #8e8e8e,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
@@ -33,17 +41,27 @@ $body-color: #333;
 
 
 $body-color-inverse: invert($body-color) !default;
-$link-color: #12bbad;
+$link-color: #8e8e8e;
+
+
+
 
 // Fonts
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$headings-font-family: $font-family-base;
-$display-font-family: $font-family-base;
+$font-family-base: lora;
+
+
+$headings-font-family: Skranji;
+
+$display-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
 $font-weight-normal: 200;
 $headings-font-weight: 200;
 $lead-font-size:   1.30rem;
 
 $spacer: 1.5rem;
+
+$font-size-base: 16;
+
 
 @import 'bootstrap-4.0.0';
 
@@ -52,10 +70,12 @@ html,body {
    height:100%;
 }
 
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
 .cover {
 	min-height:100%;
-  display:flex;
-  align-items:center
 }
 
 
@@ -137,4 +157,28 @@ html,body {
     content: ' ';
     background: linear-gradient($body-bg, transparentize($body-bg, 0.2),transparentize($body-bg, 0.9),transparentize($body-bg, 1));
 	}
+}
+.hiddenOnStart {
+  display: none;
+ }
+
+#myBtn {
+   display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px;  /*Place the button 30px from the right */
+    z-index: 99;  /*Make sure it does not overlap */
+   cursor: pointer; /* Add a mouse pointer on hover */
+                     /* border: none;  Remove borders */
+                      /* outline: none; Remove outline */
+    background-color: white;                   /* background-color: red; Set a background color */
+                      /* color: white; Text color */
+    
+    /*padding: 15px; Some padding */
+    /*border-radius: 10px; Rounded corners */
+    /*font-size: 18px; Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }
