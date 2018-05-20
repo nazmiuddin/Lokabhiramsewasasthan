@@ -12,6 +12,8 @@
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 	  <link rel="stylesheet" href="../css/main.css"> 
 	  <link rel="stylesheet" href="../css/Select.css">
+<link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Sanchez" rel="stylesheet">
+	  
 </head>
 
 <body>
@@ -43,64 +45,60 @@
   </nav>
   <div style="background-image: url('../images/Parallax.jpg');background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed" class="py-5 text-center h-75 m-0 w-100"></div>
   <div class="p-5 bg-secondary text-center">
-    <div class="container">
-      <div class="row">
-        <div class="p-3 align-self-center col-md-4">
-          <div class="card">
+    <div class="container nobottom">
+      <div class="row nobottom">
+        <div class="p-3 align-self-center col-md-4 col-xs-12 nobottom" id="container1">
+          <div class="">
             <div class="card-block p-5 text-center text-white bg-primary">
               <h3>Sign up for a programme</h3>
               <hr>
               <p class="">Donec feugiat justo vitae mollis pretium. Suspendisse ultrices, tellus vitae varius convallis, ipsum justo commodo dui. </p>
-              <a href="#" class="btn btn-lg btn-secondary text-white">
+              <a id="tab1" href="#tabData1" class="btn btn-lg btn-secondary text-white">
                 <h2 class="m-1">Sign Up</h2>
               </a>
             </div>
+            
+            
+            
+            
+            
+            
           </div>
         </div>
-        <div class="p-3 align-self-center col-md-4 text-center">
-          <div class="card">
+        <div class="p-3 align-self-center col-md-4 text-center nobottom" id="container2">
+          <div class="">
             <div class="card-block p-5 bg-primary text-white">
               <h3 contenteditable="true">Volunteer
                 <br>opportunities </h3>
               <hr>
               <p class="">Donec feugiat justo vitae mollis pretium. Suspendisse ultrices, tellus vitae varius convallis, ipsum justo commodo dui. </p>
-              <a href="#" class="btn btn-lg text-white btn-secondary">
+              <a id="tab2" href="#tabData2" class="btn btn-lg text-white btn-secondary">
                 <h2 class="m-1">Join Us</h2>
               </a>
             </div>
           </div>
         </div>
-        <div class="p-3 align-self-center col-md-4">
-          <div class="card">
+        <div class="p-3 align-self-center col-md-4 nobottom" id="container3">
+          <div class="">
             <div class="card-block p-5 bg-primary text-white">
               <h3>Make a Donation<br> 
               </h3>
               <hr>
               <p class="">Donec feugiat justo vitae mollis pretium. Suspendisse ultrices, tellus vitae varius convallis, ipsum justo commodo dui. </p>
-              <a href="#" class="btn btn-lg btn-secondary text-white">
+              <a id="tab3" href="#tabData3" class="btn btn-lg btn-secondary text-white">
                 <h2 class="m-1">Donate </h2>
               </a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-end">
-         
-        </div>
-      </div>
-    </div>
-    
-   <!--button for scroll up-->
-    <a href="#" onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-lg text-primary btn-light">Top</a>
-  
-  </div>  
-  <div class="text-center bg-primary">
-    <div class="container-fluid">
+        
+        
+        
+    <div class="container-fluid" id="tabData1">
       <div class="row">
         <div class="col-md-12 bg-secondary" style="transition: all 0.25s;">
           <div>
-            <div class="card-body text-center text-white bg-secondary py-4">
+            <div class="card-body text-center text-white bg-primary py-4">
               <h1 class="pb-3">Contact for Events</h1>
               <div class="d-inline-flex align-items-center justify-content-center col-md-5 m-1">
                 <form class="w-100">
@@ -130,13 +128,14 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="">
-    <div class="container-fluid">
+    </div>        
+
+        
+                
+    <div class="container-fluid" id="tabData2">
       <div class="row">
         <div class="col-md-12 bg-secondary">
-          <div class="text-white text-center bg-secondary" style="background-repeat:no-repeat;background-position:center center;background-size:cover;">
+          <div class="text-white text-center bg-primary" style="background-repeat:no-repeat;background-position:center center;background-size:cover;">
             <div class="container">
               <div class="row">
                 <div class="col-md-12 py-4">
@@ -177,7 +176,7 @@
                       </div>
                     </div>
                     <div class="mx-auto col-md-5">
-                      <a class="btn btn-block btn-lg btn-primary text-white" href="#">Sumbit</a>
+                      <a class="btn btn-block btn-lg btn-secondary text-white" href="#">Sumbit</a>
                     </div>
                   </div>
                 </div>
@@ -186,9 +185,13 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="py-3 bg-primary text-white">
+    </div>                        
+                       
+<!--tabdata3                                               -->
+
+                                                                                                                                
+    <div class="container-fluid h-100 text-white bg-primary" id="tabData3">
+     
     <div class="container p-3">
       <div class="row">
         <div class="col-md-12 my-2">
@@ -199,7 +202,7 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <p class="lead">Account No: 02961450000174
+          <p class="lead text-left">Account No: 02961450000174
             <br>Account Name: Lokabhiramsewasasthan
             <br>Bank Name: XyzBank &nbsp;
             <br>Bank IFSC: SbinC000296
@@ -212,11 +215,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <!--contact section-->
-  <!-- google map -->
-  <div class="text-white text-center h-75 bg-primary" style="background-repeat:no-repeat;background-position:center center;background-size:cover;background-image: url('images/people-3120717_960_720.jpg');">
-    <div class="container-fluid h-100">
+     
+     
       <div class="row h-100">
         <div class="col-md-12">
           <h1>
@@ -245,8 +245,45 @@
           </form>
         </div>
       </div>
+    </div>    
+                                                                                                                            
+                                                
+      </div>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-end">
+         
+        </div>
+      </div>
     </div>
+    
+   <!--button for scroll up-->
+    <a href="#" onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-lg text-primary btn-light">Top</a>
+  
+  </div>  
+  
+  <div class="text-center bg-primary">
+
   </div>
+  
+  
+  
+  
+  
+  <div class="">
+  
+  </div>
+  
+  
+  <div class="py-3 bg-primary text-white">
+  
+  </div>
+  
+<!--
+  <div class="text-white text-center h-75 bg-primary" style="background-repeat:no-repeat;background-position:center center;background-size:cover;background-image: url('images/people-3120717_960_720.jpg');">
+
+  </div>
+  
+-->
   <div class="text-center bg-primary">
     <div class="container">
       <div class="row">
@@ -280,12 +317,12 @@
       </div>
     </div>
   </div>
-  <div class="">
+  <div class="contactusMap">
     <div class="container-fluid">
-      <div class="row">
-        <div class="" style="transition: all 0.25s;">
+      <div class="row no-gutter">
+        <div class="col-md-12" style="transition: all 0.25s;">
           <div id="map" style="width:100%;height:480px;" class="">
-            <iframe style=";width:1000%;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28467.80573882351!2d80.97736429935063!3d26.888393496962518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1525680664131" width="600" height="480"
+            <iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28467.80573882351!2d80.97736429935063!3d26.888393496962518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1525680664131" width="600" height="480"
               frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
@@ -352,6 +389,19 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>  
+  
+<script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
+  
+      
+  
   <script>
     var coll = document.getElementsByClassName("about");
       var i;
@@ -370,6 +420,47 @@
       } 
       });
     }
+
+      
+    $("#tabData1").hide();
+    $("#tabData2").hide();
+    $("#tabData3").hide();
+
+        $("#container1").removeClass("nobottom");        
+        $("#container2").removeClass("nobottom");
+        $("#container3").removeClass("nobottom");      
+      
+      
+    $("#tab1").on("click", function(){
+        $("#tabData1").show();
+        $("#tabData2").hide();
+        $("#tabData3").hide();
+        
+        $("#container1").addClass("nobottom");        
+        $("#container2").removeClass("nobottom");
+        $("#container3").removeClass("nobottom");
+    });    
+
+    $("#tab2").on("click", function(){
+        $("#tabData1").hide();
+        $("#tabData2").show();
+        $("#tabData3").hide();
+        
+        $("#container2").addClass("nobottom");        
+        $("#container1").removeClass("nobottom");
+        $("#container3").removeClass("nobottom");        
+    });    
+
+    $("#tab3").on("click", function(){
+        $("#tabData1").hide();
+        $("#tabData2").hide();
+        $("#tabData3").show();
+        
+        $("#container3").addClass("nobottom");        
+        $("#container2").removeClass("nobottom");
+        $("#container1").removeClass("nobottom");        
+    });          
+          
   </script>
 
 </body>

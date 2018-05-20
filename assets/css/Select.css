@@ -22,3 +22,42 @@
     z-index: 99; /* Make sure it does not overlap */
     
 }
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+.*{
+    font-family: "Hind Siliguri";
+}
+
+    .box-text-align{
+        text-align: justify;
+    }
+
+@media screen and (max-width: 400px)
+{
+    .box-text-align{
+        text-align: justify;
+    }
+}
+
+
+.underlined{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+
+#tabs {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.nobottom{
+    padding-bottom: 0px !important;
+}
